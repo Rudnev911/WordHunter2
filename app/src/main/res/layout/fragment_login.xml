@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCFCFF"
+    tools:context=".fragments.LoginFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/inter_bold"
+        android:layout_marginTop="84dp"
+        android:text="Авторизация"
+        android:textColor="#000000"
+        android:textSize="48dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_login_auth"
+        android:layout_width="306dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:hint="Введите логин"
+        android:background="@drawable/shape_rounded"
+        android:inputType="text"
+        android:textColorHint="#5e4602"
+        android:paddingStart="25dp"/>
+
+
+    <EditText
+        android:id="@+id/user_pass_auth"
+        android:layout_width="306dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Введите пароль"
+        android:background="@drawable/shape_rounded"
+        android:inputType="textPassword"
+        android:textColorHint="#5e4602"
+        android:paddingStart="25dp"/>
+
+    <Button
+        android:id="@+id/button_auth"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:text="Войти" />
+
+    <TextView
+        android:id="@+id/link_to_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="84dp"
+        android:text="Зарегестрироваться"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+</LinearLayout>
