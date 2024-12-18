@@ -28,4 +28,18 @@
         android:name="com.example.wordhunter3.fragments.MainPageFragment"
         android:label="fragment_main_page"
         tools:layout="@layout/fragment_main_page" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.wordhunter3.fragments.HomeFragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_moduleFragment"
+            app:destination="@id/moduleFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/moduleFragment"
+        android:name="com.example.wordhunter3.fragments.ModuleFragment"
+        tools:layout="@layout/fragment_module" />
+
 </navigation>
