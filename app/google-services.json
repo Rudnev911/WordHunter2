@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "560476755898",
+    "project_id": "wordhuntv2",
+    "storage_bucket": "wordhuntv2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560476755898:android:9aeecddb2c035bd6f1af83",
+        "android_client_info": {
+          "package_name": "com.example.wordhunter3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSKydXV45E7bGQ-35_w0OaccF6vx8uHzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
